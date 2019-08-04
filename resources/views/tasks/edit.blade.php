@@ -15,6 +15,11 @@
                     {!! Form::text('content', null, ['class' => 'form-control']) !!}
                 </idv>
                 
+                <idv class="form-group">
+                    {!! Form::label('status', 'ステータス：') !!}
+                    {!! Form::text('status', null, ['class' => 'form-control']) !!}
+                </idv>
+                
                 {!! Form::submit('更新', ['class' => 'btn btn-light']) !!}
             {!! Form::close() !!}
         </div>
